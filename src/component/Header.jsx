@@ -28,7 +28,7 @@ const Header = () => {
         </ul>
         {/* resposive menu */}
         <ul
-          className={`duration-500 md:hidden w-full h-screen text-white fixed bg-black top-[92px]
+          className={`duration-500 md:hidden w-full h-screen text-white fixed bg-black top-[88px]
          ${toggle ? "left-[0]" : "left-[-100%]"}`}
         >
           <li className="p-5">Home</li>

@@ -1,10 +1,12 @@
 import "./App.css";
 import Header from "./component/Header";
+import Banner from "./component/Banner";
 
 function App() {
   return (
     <>
-      <Header name={"Tanmay"} />
+      <Header />
+      <Banner />
     </>
   );
 }
